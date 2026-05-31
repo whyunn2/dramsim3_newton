@@ -1,3 +1,16 @@
+# DRAMsim3 Newton Reproduction
+
+This repository is a DRAMsim3-based simulator for reproducing Newton paper
+results. The paper details and experiment-specific implementation will be
+documented as the reproduction work progresses.
+
+The baseline is upstream DRAMsim3 commit
+`29817593b3389f1337235d63cac515024ab8fd6e` (`1.0.0`). See
+[`REPRODUCE.md`](REPRODUCE.md) for the experiment checklist and
+[`CHANGES.md`](CHANGES.md) for differences from the baseline.
+
+## Upstream DRAMsim3 Documentation
+
 [![Build Status](https://travis-ci.com/umd-memsys/DRAMsim3.svg?branch=master)](https://travis-ci.com/umd-memsys/DRAMsim3)
 
 # About DRAMsim3
@@ -155,4 +168,3 @@ other Verilog simulators may require a slightly different format.
 [5] Li, S., & Jacob, B. (2019, September). Statistical DRAM modeling. In Proceedings of the International Symposium on Memory Systems (pp. 521-530).
 
 [6] Li, S. (2019). Scalable and Accurate Memory System Simulation (Doctoral dissertation).
-
